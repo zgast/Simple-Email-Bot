@@ -15,3 +15,6 @@ delete
  
 quit
 * just closes the program
+
+## Use
+If u want your own Email change it in the Sending class and built it new, else its one of my Emails.
