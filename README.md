@@ -4,7 +4,7 @@
 ## Commands
 new   
 * name : "random name" (just for deleting it later)  
-* startday :  "DayOfYear" (the Day Of the Year when u want to start ![A DayOfYear Calendar](https://www.esrl.noaa.gov/gmd/grad/neubrew/Calendar.jsp) )  
+* startday :  "DayOfYear" (the Day Of the Year when u want to start [A DayOfYear Calendar](https://www.esrl.noaa.gov/gmd/grad/neubrew/Calendar.jsp) )  
 * timespan :   "Day/s" (The Days between the first and the next times, when u take 1 for example, its everyday)  
 * email : "a Email" (the Email of the person u want to send it)     
 * subject : "the subject of the Email"  
@@ -18,3 +18,5 @@ quit
 
 ## Use
 If u want your own Email change it in the Sending class and built it new, else its one of my Emails.
+
+![](https://github.com/zgast/Simple-Email-Bot/blob/master/Screenshot/Screenshot.PNG)
