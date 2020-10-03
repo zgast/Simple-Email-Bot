@@ -10,12 +10,12 @@ public class Sending {
 
     public static void sendMail(String email, String subject, String text) {
 
-        final String username = "notification@zgast.at";
-        final String password = "f7lWW1!JKa";
+        final String username = "email@domain.topleveldomain";
+        final String password = "password";
 
         Properties prop = new Properties();
-        prop.put("mail.smtp.host", "dmail01.bero-host.de");
-        prop.put("mail.smtp.port", "587");
+        prop.put("mail.smtp.host", "subdomain.domain.topleveldomain");
+        prop.put("mail.smtp.port", "Port(e.g. 587");
         prop.put("mail.smtp.auth", "true");
         prop.put("mail.smtp.starttls.enable", "true");
 
@@ -29,7 +29,7 @@ public class Sending {
         try {
 
             Message message = new MimeMessage(session);
-            message.setFrom(new InternetAddress("notification@zgast.at"));
+            message.setFrom(new InternetAddress("email@domain.topleveldomain"));
             message.setRecipients(
                     Message.RecipientType.TO,
                     InternetAddress.parse(email)
